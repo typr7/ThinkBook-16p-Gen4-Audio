@@ -1,0 +1,17 @@
+[
+  {
+    "name": "halo_cspl_RAM_revB2_29.63.1.wmfw",
+    "bytes": 34068,
+    "sha256": "c11cb3e25825c673a955a3519370ad77fbcd8bcf68808e8e34140a70caefcec4"
+  },
+  {
+    "name": "17AA38A9_221222_V0_A0.bin",
+    "bytes": 5544,
+    "sha256": "176cd7f50e026f4336d314709f3f2a9e9a7dca7fe9a08141290e6ab64b6ab041"
+  },
+  {
+    "name": "17AA38A9_221222_V0_A1.bin",
+    "bytes": 5544,
+    "sha256": "9bf84d1693c1a7a5382500b524ad1ff43bf131e94d8b8a3bd30c43b272991617"
+  }
+]

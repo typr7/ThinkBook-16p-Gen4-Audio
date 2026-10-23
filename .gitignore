@@ -1,0 +1,23 @@
+# Private inputs and generated releases
+/firmware/*
+!/firmware/README.md
+/MacKernelSDK/
+/dependencies/
+/dist/
+/build/
+.build/
+*.kext/
+*.wmfw
+*.bin
+*.zip
+*.exe
+*.o
+*.o.d
+/Audio/Devices/CS35L41/Resources/Firmware.hpp
+# Editor and system files
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+[
+  "VoodooI2C/VoodooI2C/VoodooI2CDevice/VoodooI2CDeviceNub.cpp",
+  "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CACPIController.cpp",
+  "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CController.cpp",
+  "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CPCIController.cpp",
+  "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CControllerNub.cpp",
+  "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CControllerDriver.cpp",
+  "Multitouch Support/VoodooI2CDigitiserTransducer.cpp",
+  "Multitouch Support/VoodooI2CMultitouchInterface.cpp",
+  "Multitouch Support/VoodooI2CMultitouchEngine.cpp",
+  "Multitouch Support/VoodooI2CDigitiserStylus.cpp",
+  "Multitouch Support/Native/VoodooI2CNativeEngine.cpp",
+  "Dependencies/helpers.cpp",
+  "Dependencies/VoodooI2CACPIResourcesParser/VoodooI2CACPIResourcesParser.cpp"
+]

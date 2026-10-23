@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.numw.thinkbook-audio</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Application Support/ThinkBookAudio/start-audio.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/var/log/thinkbook-audio.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/thinkbook-audio.log</string>
+	<key>StartInterval</key>
+	<integer>20</integer>
+	<key>ThrottleInterval</key>
+	<integer>20</integer>
+</dict>
+</plist>

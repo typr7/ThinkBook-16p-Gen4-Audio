@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "board": "Lenovo ThinkBook 16p Gen4 / 17AA38A9",
+  "cirrus_audio_fixup": {
+    "url": "https://github.com/hoaug-tran/CirrusAudioFixup",
+    "snapshot": "3cbf548f5ab2defa6db770274c82572699d5581e",
+    "license": "licenses/CirrusAudioFixup.txt"
+  },
+  "port_reference": {
+    "url": "https://github.com/Ayase-kira/ThinkBook-16p-G5-IRX-Audio",
+    "snapshot": "da203e6cd1860662398beeec2beec8190e3c041c",
+    "license": "licenses/Ayase-kira-BSD-3-Clause.txt"
+  },
+  "voodoo_i2c": {
+    "url": "https://github.com/hoaug-tran/VoodooI2C",
+    "snapshot": "1a1ae9a26a74ec6b7e32a5d07f6a6ae9413bf298",
+    "license": "Vendor/VoodooI2C/LICENSE.txt",
+    "modified_files": [
+      "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CControllerDriver.cpp",
+      "VoodooI2C/VoodooI2C/VoodooI2CController/ThinkBookPolledTransfer.hpp",
+      "VoodooI2C/VoodooI2C/VoodooI2CController/VoodooI2CControllerDriver.hpp"
+    ]
+  },
+  "voodoo_gpio": {
+    "url": "https://github.com/VoodooI2C/VoodooGPIO",
+    "snapshot": "717ab2a40a0debd33ec8b35cebed7a4ced7dbfbc"
+  },
+  "voodoo_input": {
+    "url": "https://github.com/acidanthera/VoodooInput",
+    "snapshot": "d897813718c2ef9ad143b6a86240fe52dcb1693e"
+  },
+  "kernel_sdk": {
+    "url": "https://github.com/acidanthera/MacKernelSDK",
+    "snapshot": "7af1933c27aefcbdf4809ee44478829aad30f9c1"
+  },
+  "firmware": "Not distributed; local files validated against Resources/OEM-firmware.json."
+}

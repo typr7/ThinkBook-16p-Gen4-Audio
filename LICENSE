@@ -1,0 +1,23 @@
+This repository contains separately licensed components.
+
+1. Original documentation, build.py, test.py, Tools/, Service/,
+   Tests/test_build_inputs.py, and original Resources metadata (excluding the
+   two derivative kext Info plists below): BSD 3-Clause.
+   See licenses/BSD-3-Clause.txt.
+2. Audio/, Resources/Audio-Info.plist, and the remaining Tests/ are derived
+   from CirrusAudioFixup. Retain the upstream Non-Commercial Software
+   Distribution license, original notices, and attribution.
+   See licenses/CirrusAudioFixup.txt. Its non-commercial terms are not an
+   OSI-approved open source license.
+3. Vendor/VoodooI2C/, Resources/I2C-Info.plist, and local I2C changes retain
+   the upstream GNU GPL version 3 terms and any per-file notices.
+   See Vendor/VoodooI2C/LICENSE.txt. VoodooGPIO headers retain their own
+   GPL notice and LICENSE.md.
+4. Vendor/VoodooInput/ headers retain the upstream GNU GPL version 2 terms
+   and file notices. See Vendor/VoodooInput/LICENSE.txt.
+5. OEM firmware, tuning files, calibration values, and generated binary
+   outputs are not distributed or granted a license by this repository.
+
+BSD 3-Clause does not relicense third-party or derived code. No single blanket
+MIT, BSD, GPL, or other OSI license is asserted for the repository as a whole.
+See THIRD_PARTY_NOTICES.md for attribution, scope, and source snapshots.

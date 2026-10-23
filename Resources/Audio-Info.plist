@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>ThinkBookAudio</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.numw.ThinkBookAudio</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ThinkBookAudio</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2025-2026 hoaugtr. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.9</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>20.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>20.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>20.0</string>
+		<key>com.alexandred.VoodooI2C</key>
+		<string>2.9.1</string>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.4</string>
+	</dict>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>CirrusAudioFixup</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>local.numw.ThinkBookAudio</string>
+			<key>IOClass</key>
+			<string>CirrusAudioFixup</string>
+			<key>IOProviderClass</key>
+			<string>VoodooI2CDeviceNub</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>IOName</key>
+				<string>CSC3551</string>
+			</dict>
+			<key>IOProbeScore</key>
+			<integer>10000</integer>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
